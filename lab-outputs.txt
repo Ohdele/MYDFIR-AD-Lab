@@ -1,3 +1,5 @@
+event ID 4688
+
 A new process has been created. for mmc.exe by dele0
 
 Creator Subject:
@@ -50,3 +52,96 @@ Share Information:
 Access Request Information:
 	Access Mask:		0x1
 	Accesses:		ReadData (or ListDirectory)
+
+
+
+
+
+----------
+
+
+
+Event ID 4648: explicit credentials run by dele0
+
+
+
+A logon was attempted using explicit credentials.
+
+Subject:
+	Security ID:		DESKTOP-7K2K4V9\dele0
+	Account Name:		dele0
+	Account Domain:		DESKTOP-7K2K4V9
+	Logon ID:		0x3A28D
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Account Whose Credentials Were Used:
+	Account Name:		dele0048test@gmail.com
+	Account Domain:		MicrosoftAccount
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Target Server:
+	Target Server Name:	localhost
+	Additional Information:	localhost
+
+Process Information:
+	Process ID:		0x3fc
+	Process Name:		C:\Windows\System32\svchost.exe
+
+Network Information:
+	Network Address:	::1
+	Port:			0
+
+
+
+
+
+-------
+
+
+Event ID 4624: interactive logon by dele0
+
+
+
+An account was successfully logged on.
+
+Subject:
+	Security ID:		DESKTOP-7K2K4V9\dele0
+	Account Name:		dele0
+	Account Domain:		DESKTOP-7K2K4V9
+	Logon ID:		0x3A28D
+
+Logon Information:
+	Logon Type:		2
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		No
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		DESKTOP-7K2K4V9\dele0
+	Account Name:		dele0048test@gmail.com
+	Account Domain:		MicrosoftAccount
+	Logon ID:		0x288D61
+	Linked Logon ID:		0x288D32
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x3fc
+	Process Name:		C:\Windows\System32\svchost.exe
+
+Network Information:
+	Workstation Name:	DESKTOP-7K2K4V9
+	Source Network Address:	::1
+	Source Port:		0
+
+Detailed Authentication Information:
+	Logon Process:		seclogo
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+
